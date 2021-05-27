@@ -23,7 +23,7 @@
 
 ### Postgres
 
-* [Data] (https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
+* [Data](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
 * [Postgres Docker Hub](https://hub.docker.com/_/postgres)
 
 ### Populate
