@@ -21,10 +21,9 @@
 
 ## Development Setup
 
-* (https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
-
 ### Postgres
 
+* [Data] (https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
 * [Postgres Docker Hub](https://hub.docker.com/_/postgres)
 
 ### Populate
@@ -100,9 +99,6 @@ GET -> http://localhost:8080/staties
 * [appendix-application-properties](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
 * [jdbc-database-connectio](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases)
 
-### Types
 
-* [JsonTypes](https://github.com/vladmihalcea/hibernate-types)
-* [UserType](https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/usertype/UserType.html)
 
 
