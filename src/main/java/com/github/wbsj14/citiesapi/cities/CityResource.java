@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.data.domain.Pageable;
 
 @RestController
-@RequestMapping("cities")
+@RequestMapping("/cities")
 public class CityResource {
 
     @Autowired

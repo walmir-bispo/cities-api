@@ -1,9 +1,5 @@
 # Cities API
 
-## About Project
-
-Projeto desenvolvido na liguagem Java e tem como objetivo calcular a distância entre duas cidades, dadas suas respectivas latitude e longitude.
-
 ## Requirements
 
 * Git

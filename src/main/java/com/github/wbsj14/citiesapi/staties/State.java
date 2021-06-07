@@ -1,6 +1,5 @@
 package com.github.wbsj14.citiesapi.staties;
 
-
 import com.github.wbsj14.citiesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import org.hibernate.annotations.Type;
@@ -27,8 +26,8 @@ public class State {
 
     private Integer ibge;
 
-    @ManyToOne  //vários estados pertencem a um pais
-    @JoinColumn(name = "pais", referencedColumnName = "id") //referencia uma entidade Country la na tabela de nome pais e na coluna "id"
+    @ManyToOne
+    @JoinColumn(name = "pais", referencedColumnName = "id")
     private Country country;
 
 
@@ -37,29 +36,20 @@ public class State {
     @Column(name = "ddd", columnDefinition = "jsonb")
     private List<Integer> ddd;
 
-    public State() {
-    }
+    public State() { }
 
-    public Integer getId() {
-        return id;
-    }
+    public Integer getId() { return id; }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
-    public String getUf() {
-        return uf;
-    }
+    public String getUf() { return uf; }
 
-    public Integer getIbge() {
-        return ibge;
-    }
+    public Integer getIbge() { return ibge; }
 
-    public List<Integer> getDdd() {
-        return ddd;
-    }
+    public List<Integer> getDdd() { return ddd; }
 
     public Country getCountry() { return country; }
+
+
 
 }
