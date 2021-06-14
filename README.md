@@ -60,14 +60,6 @@ select earth_distance(
 ) as distance;
 ```
 
-### Access
-
-```shell script
-docker exec -it cities-db /bin/bash
-
-psql -U postgres_user_city cities
-```
-
 ## Usage Examples
 
 * [Postman](https://www.postman.com/)
@@ -93,11 +85,6 @@ GET -> http://localhost:8080/staties
 ### Spring Data
 
 * [jpa.query-methods](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
-
-### Properties
-
-* [appendix-application-properties](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html)
-* [jdbc-database-connectio](https://www.codejava.net/java-se/jdbc/jdbc-database-connection-url-for-common-databases)
 
 
 
